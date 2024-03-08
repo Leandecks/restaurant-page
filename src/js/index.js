@@ -1,7 +1,10 @@
-import "../sass/style.sass";
-import { home } from "./home";
-import { menu } from "./menu";
-import { about } from "./about";
+import "../sass/home.sass";
+import "../sass/menu.sass";
+import "../sass/about.sass";
+
+import { home } from "./home.js";
+import { menu } from "./menu.js";
+import { about } from "./about.js";
 
 const clearContent = () => document.querySelector("#content").textContent = "";
 

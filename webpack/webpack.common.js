@@ -14,7 +14,7 @@ module.exports = {
                 test: /\.(?:js|mjs|cjs)$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: 'babel-home',
+                    loader: 'babel-loader',
                     options: {
                         presets: [
                             ['@babel/preset-env', { targets: "defaults" }]
@@ -25,9 +25,9 @@ module.exports = {
             {
                 test: /\.s[ac]ss$/i,
                 use: [
-                    "style-home",
-                    "css-home",
-                    "sass-home",
+                    "style-loader",
+                    "css-loader",
+                    "sass-loader",
                 ],
             },
             {
