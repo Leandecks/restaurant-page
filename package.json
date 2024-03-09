@@ -1,7 +1,7 @@
 {
-  "name": "webpack",
+  "name": "restaurant-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tenth project for TOP: Restaurant Page.",
   "private": true,
   "scripts": {
     "build": "webpack --progress --config webpack/webpack.prod.js",

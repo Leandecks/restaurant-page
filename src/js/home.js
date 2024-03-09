@@ -1,4 +1,4 @@
-import Icon from "../assets/img/restaurant.jpg";
+import Icon from "../assets/img/home/restaurant.jpg";
 
 function home() {
 
