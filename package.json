@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "build": "webpack --progress --config webpack/webpack.prod.js",
-    "dev": "webpack serve --open --config webpack/webpack.dev.js"
+    "dev": "webpack serve --open --config webpack/webpack.dev.js",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "Leandecks <leandrogridelli@gmail.com> (https://leandecks.github.io/)",
