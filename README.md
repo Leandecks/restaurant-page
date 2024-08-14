@@ -1,11 +1,11 @@
-## Leandecks Webpack Template
+## Restaurant page
 
 Tenth project for TOP: Restaurant Page.   
 Source code in `./src`, builds to `./dist`
 .
 ### Commands
 
-Run for development, opens local dev server and watches for changes:
+Run for development, open local dev server and watch for changes:
 
 `
 npm run dev
